@@ -1,0 +1,463 @@
+﻿
+<style>
+    .assimg {
+        width: 60px;
+        height: 60px;
+        overflow: hidden;
+    }
+
+    .asscard {
+        border-top-left-radius: 20px;
+        transition: background-color .5s,box-shadow .5s;
+        background-color: white;
+    }
+
+        .asscard:hover {
+            background-color: #EEE3AB;
+            box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        }
+
+        .asscard a:hover {
+            color: white;
+            background-color: #80A1C1;
+        }
+    .detailsphoto{
+        width:100px;
+        height:100px;
+        overflow:hidden;
+    }
+    #message{
+        color:#80A1C1;
+        outline-color:#80A1C1;
+    }
+</style>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header d-flex">
+                <div class="mr-auto">
+                    <img src="~/Content/img/Anime-.jpg" class="detailsphoto rounded mr-auto" />
+
+                </div>
+                <div class="d-flex" >
+                    <div>
+                        <h6 class="badge badge-light">مساعد مدرس لغة عربية</h6>
+                        <h5 id="exampleModalLongTitle"> نبيل حلمي منصور</h5>
+                    </div>
+                    <div class="align-items-start">
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn" id="message"><i class="fa fa-comment m-1"></i>رسالة</button>
+                <button type="button" class="btn btn-outline-danger"><i class="fas fa-user-times m-1"></i>رفض</button>
+                <button type="button" class="btn btn-outline-success"><i class="fas fa-user-check m-1"></i>قبول</button>
+            </div> 
+        </div>
+    </div>
+</div>
+<!--End Modal-->
+<div class="container jobpage">
+    <div class="row justify-content-center">
+        <!--CARD JOB-->
+        <div class="col-md-3 m-2 asscard">
+            <div class="m-3">
+                <!--card header-->
+                <div class="d-flex">
+                    <img class="rounded mr-auto assimg" src="~/Content/img/oretwitaisle.jpg" />
+                    <div>
+                        <h6 class="badge badge-light ml-5 "> مساعد لغة عربية</h6>
+                        <h5> نبيل حلمي منصور</h5>
+                    </div>
+                </div>
+                <!--card short details-->
+                <div class="text-secondary" style="font-size:12px;text-align:right">
+                    <div>2020-10-5 التاريخ</div>
+                    <div>
+                        <span>الإسكندرية - مصر</span>
+                    </div>
+                    <div>
+                        <span> السن : 20 سنة</span>
+                    </div>
+
+                </div>
+                <div>
+                    <a class="btn btn"><i class=" fa fa-sm fa-file m-1"></i> cv.pdf</a>
+                    <a class="btn btn"><i class=" fab fa-sm fa-linkedin-in m-1"></i> LinkedIn</a>
+                </div>
+                <!--card Buttons-->
+                <div class="d-flex">
+                    <div>
+                        <a href="#" class="btn btn-sm m-1"><span><i class="fa fa-bookmark fa-sm p-2"></i></span></a>
+                    </div>
+
+
+                    <div>
+                        <a href="#" class="btn btn-sm m-1"><span><i class="fa fa-comment m-1"></i> رسالة</span></a>
+                    </div>
+                    <div>
+                        <a href="" class="btn btn-sm m-1"> <i class="fa fa-info m-1"></i> تفاصيل</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--END CARD JOB-->
+        <div class="col-md-3 m-2 asscard">
+            <div class="m-3">
+                <!--card header-->
+                <div class="d-flex">
+                    <img class="rounded mr-auto assimg" src="~/Content/img/Anime-.jpg" />
+                    <div>
+                        <h6 class="badge badge-light ml-5 "> مساعد لغة عربية</h6>
+                        <h5> نبيل حلمي منصور</h5>
+                    </div>
+                </div>
+                <!--card short details-->
+                <div class="text-secondary" style="font-size:12px;text-align:right">
+                    <div>2020-10-5 التاريخ</div>
+                    <div>
+                        <span>الإسكندرية - مصر</span>
+                    </div>
+                    <div>
+                        <span> السن : 20 سنة</span>
+                    </div>
+
+                </div>
+                <div>
+                    <a class="btn btn"><i class=" fa fa-sm fa-file m-1"></i> cv.pdf</a>
+                    <a class="btn btn"><i class=" fab fa-sm fa-linkedin-in m-1"></i> LinkedIn</a>
+                </div>
+                <!--card Buttons-->
+                <div class="d-flex">
+                    <div>
+                        <a href="#" class="btn btn-sm m-1"><span><i class="fa fa-bookmark fa-sm p-2"></i></span></a>
+                    </div>
+
+
+                    <div>
+                        <a href="#" class="btn btn-sm m-1"><span>ارسل رسالة<i class="fa fa-comment m-1"></i></span></a>
+                    </div>
+                    <div>
+                        <a href="" class="btn btn-sm m-1"> قبول<i class="fa fa-check m-1"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 m-2 asscard">
+            <div class="m-3">
+                <!--card header-->
+                <div class="d-flex">
+                    <img class="rounded mr-auto assimg" src="~/Content/img/1020.jpg" />
+                    <div>
+                        <h6 class="badge badge-light ml-5 "> مساعد لغة عربية</h6>
+                        <h5> نبيل حلمي منصور</h5>
+                    </div>
+                </div>
+                <!--card short details-->
+                <div class="text-secondary" style="font-size:12px;text-align:right">
+                    <div>2020-10-5 التاريخ</div>
+                    <div>
+                        <span>الإسكندرية - مصر</span>
+                    </div>
+                    <div>
+                        <span> السن : 20 سنة</span>
+                    </div>
+
+                </div>
+                <div>
+                    <a class="btn btn"><i class=" fa fa-sm fa-file m-1"></i> cv.pdf</a>
+                    <a class="btn btn"><i class=" fab fa-sm fa-linkedin-in m-1"></i> LinkedIn</a>
+                </div>
+                <!--card Buttons-->
+                <div class="d-flex">
+                    <div>
+                        <a href="#" class="btn btn-sm m-1"><span><i class="fa fa-bookmark fa-sm p-2"></i></span></a>
+                    </div>
+
+
+                    <div>
+                        <a href="#" class="btn btn-sm m-1"><span>ارسل رسالة<i class="fa fa-comment m-1"></i></span></a>
+                    </div>
+                    <div>
+                        <a href="" class="btn btn-sm m-1"> قبول<i class="fa fa-check m-1"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="row justify-content-center">
+        <!--CARD JOB-->
+        <div class="col-md-3 m-2 asscard">
+            <div class="m-3">
+                <!--card header-->
+                <div class="d-flex">
+                    <img class="rounded mr-auto assimg" src="~/Content/img/oretwitaisle.jpg" />
+                    <div>
+                        <h6 class="badge badge-light ml-5 "> مساعد لغة عربية</h6>
+                        <h5> نبيل حلمي منصور</h5>
+                    </div>
+                </div>
+                <!--card short details-->
+                <div class="text-secondary" style="font-size:12px;text-align:right">
+                    <div>2020-10-5 التاريخ</div>
+                    <div>
+                        <span>الإسكندرية - مصر</span>
+                    </div>
+                    <div>
+                        <span> السن : 20 سنة</span>
+                    </div>
+
+                </div>
+                <div>
+                    <a class="btn btn"><i class=" fa fa-sm fa-file m-1"></i> cv.pdf</a>
+                    <a class="btn btn"><i class=" fab fa-sm fa-linkedin-in m-1"></i> LinkedIn</a>
+                </div>
+                <!--card Buttons-->
+                <div class="d-flex">
+                    <div>
+                        <a href="#" class="btn btn-sm m-1"><span><i class="fa fa-bookmark fa-sm p-2"></i></span></a>
+                    </div>
+
+
+                    <div>
+                        <a href="#" class="btn btn-sm m-1"><span><i class="fa fa-comment m-1"></i> رسالة</span></a>
+                    </div>
+                    <div>
+                        <a href="" class="btn btn-sm m-1"  data-toggle="modal" data-target="#exampleModalCenter"> <i class="fa fa-info m-1"></i> تفاصيل</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--END CARD JOB-->
+        <div class="col-md-3 m-2 asscard">
+            <div class="m-3">
+                <!--card header-->
+                <div class="d-flex">
+                    <img class="rounded mr-auto assimg" src="~/Content/img/Anime-.jpg" />
+                    <div>
+                        <h6 class="badge badge-light ml-5 "> مساعد لغة عربية</h6>
+                        <h5> نبيل حلمي منصور</h5>
+                    </div>
+                </div>
+                <!--card short details-->
+                <div class="text-secondary" style="font-size:12px;text-align:right">
+                    <div>2020-10-5 التاريخ</div>
+                    <div>
+                        <span>الإسكندرية - مصر</span>
+                    </div>
+                    <div>
+                        <span> السن : 20 سنة</span>
+                    </div>
+
+                </div>
+                <div>
+                    <a class="btn btn"><i class=" fa fa-sm fa-file m-1"></i> cv.pdf</a>
+                    <a class="btn btn"><i class=" fab fa-sm fa-linkedin-in m-1"></i> LinkedIn</a>
+                </div>
+                <!--card Buttons-->
+                <div class="d-flex">
+                    <div>
+                        <a href="#" class="btn btn-sm m-1"><span><i class="fa fa-bookmark fa-sm p-2"></i></span></a>
+                    </div>
+
+
+                    <div>
+                        <a href="#" class="btn btn-sm m-1"><span>ارسل رسالة<i class="fa fa-comment m-1"></i></span></a>
+                    </div>
+                    <div>
+                        <a href="" class="btn btn-sm m-1"> قبول<i class="fa fa-check m-1"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 m-2 asscard">
+            <div class="m-3">
+                <!--card header-->
+                <div class="d-flex">
+                    <img class="rounded mr-auto assimg" src="~/Content/img/1020.jpg" />
+                    <div>
+                        <h6 class="badge badge-light ml-5 "> مساعد لغة عربية</h6>
+                        <h5> نبيل حلمي منصور</h5>
+                    </div>
+                </div>
+                <!--card short details-->
+                <div class="text-secondary" style="font-size:12px;text-align:right">
+                    <div>2020-10-5 التاريخ</div>
+                    <div>
+                        <span>الإسكندرية - مصر</span>
+                    </div>
+                    <div>
+                        <span> السن : 20 سنة</span>
+                    </div>
+
+                </div>
+                <div>
+                    <a class="btn btn"><i class=" fa fa-sm fa-file m-1"></i> cv.pdf</a>
+                    <a class="btn btn"><i class=" fab fa-sm fa-linkedin-in m-1"></i> LinkedIn</a>
+                </div>
+                <!--card Buttons-->
+                <div class="d-flex">
+                    <div>
+                        <a href="#" class="btn btn-sm m-1"><span><i class="fa fa-bookmark fa-sm p-2"></i></span></a>
+                    </div>
+
+
+                    <div>
+                        <a href="#" class="btn btn-sm m-1"><span>ارسل رسالة<i class="fa fa-comment m-1"></i></span></a>
+                    </div>
+                    <div>
+                        <a href="" class="btn btn-sm m-1"> قبول<i class="fa fa-check m-1"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="row justify-content-center">
+        <!--CARD JOB-->
+        <div class="col-md-3 m-2 asscard">
+            <div class="m-3">
+                <!--card header-->
+                <div class="d-flex">
+                    <img class="rounded mr-auto assimg" src="~/Content/img/oretwitaisle.jpg" />
+                    <div>
+                        <h6 class="badge badge-light ml-5 "> مساعد لغة عربية</h6>
+                        <h5> نبيل حلمي منصور</h5>
+                    </div>
+                </div>
+                <!--card short details-->
+                <div class="text-secondary" style="font-size:12px;text-align:right">
+                    <div>2020-10-5 التاريخ</div>
+                    <div>
+                        <span>الإسكندرية - مصر</span>
+                    </div>
+                    <div>
+                        <span> السن : 20 سنة</span>
+                    </div>
+
+                </div>
+                <div>
+                    <a class="btn btn"><i class=" fa fa-sm fa-file m-1"></i> cv.pdf</a>
+                    <a class="btn btn"><i class=" fab fa-sm fa-linkedin-in m-1"></i> LinkedIn</a>
+                </div>
+                <!--card Buttons-->
+                <div class="d-flex">
+                    <div>
+                        <a href="#" class="btn btn-sm m-1"><span><i class="fa fa-bookmark fa-sm p-2"></i></span></a>
+                    </div>
+
+
+                    <div>
+                        <a href="#" class="btn btn-sm m-1"><span><i class="fa fa-comment m-1"></i> رسالة</span></a>
+                    </div>
+                    <div>
+                        <a href="" class="btn btn-sm m-1"> <i class="fa fa-info m-1"></i> تفاصيل</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--END CARD JOB-->
+        <div class="col-md-3 m-2 asscard">
+            <div class="m-3">
+                <!--card header-->
+                <div class="d-flex">
+                    <img class="rounded mr-auto assimg" src="~/Content/img/Anime-.jpg" />
+                    <div>
+                        <h6 class="badge badge-light ml-5 "> مساعد لغة عربية</h6>
+                        <h5> نبيل حلمي منصور</h5>
+                    </div>
+                </div>
+                <!--card short details-->
+                <div class="text-secondary" style="font-size:12px;text-align:right">
+                    <div>2020-10-5 التاريخ</div>
+                    <div>
+                        <span>الإسكندرية - مصر</span>
+                    </div>
+                    <div>
+                        <span> السن : 20 سنة</span>
+                    </div>
+
+                </div>
+                <div>
+                    <a class="btn btn"><i class=" fa fa-sm fa-file m-1"></i> cv.pdf</a>
+                    <a class="btn btn"><i class=" fab fa-sm fa-linkedin-in m-1"></i> LinkedIn</a>
+                </div>
+                <!--card Buttons-->
+                <div class="d-flex">
+                    <div>
+                        <a href="#" class="btn btn-sm m-1"><span><i class="fa fa-bookmark fa-sm p-2"></i></span></a>
+                    </div>
+
+
+                    <div>
+                        <a href="#" class="btn btn-sm m-1"><span>ارسل رسالة<i class="fa fa-comment m-1"></i></span></a>
+                    </div>
+                    <div>
+                        <a href="" class="btn btn-sm m-1"> قبول<i class="fa fa-check m-1"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 m-2 asscard">
+            <div class="m-3">
+                <!--card header-->
+                <div class="d-flex">
+                    <img class="rounded mr-auto assimg" src="~/Content/img/1020.jpg" />
+                    <div>
+                        <h6 class="badge badge-light ml-5 "> مساعد لغة عربية</h6>
+                        <h5> نبيل حلمي منصور</h5>
+                    </div>
+                </div>
+                <!--card short details-->
+                <div class="text-secondary" style="font-size:12px;text-align:right">
+                    <div>2020-10-5 التاريخ</div>
+                    <div>
+                        <span>الإسكندرية - مصر</span>
+                    </div>
+                    <div>
+                        <span> السن : 20 سنة</span>
+                    </div>
+
+                </div>
+                <div>
+                    <a class="btn btn"><i class=" fa fa-sm fa-file m-1"></i> cv.pdf</a>
+                    <a class="btn btn"><i class=" fab fa-sm fa-linkedin-in m-1"></i> LinkedIn</a>
+                </div>
+                <!--card Buttons-->
+                <div class="d-flex">
+                    <div>
+                        <a href="#" class="btn btn-sm m-1"><span><i class="fa fa-bookmark fa-sm p-2"></i></span></a>
+                    </div>
+
+
+                    <div>
+                        <a href="#" class="btn btn-sm m-1"><span>ارسل رسالة<i class="fa fa-comment m-1"></i></span></a>
+                    </div>
+                    <div>
+                        <a href="" class="btn btn-sm m-1"> قبول<i class="fa fa-check m-1"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

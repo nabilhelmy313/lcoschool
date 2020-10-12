@@ -1,0 +1,169 @@
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\TasksProject.dll.config
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\TasksProject.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\TasksProject.pdb
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\roslyn\csc.exe
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\roslyn\csc.exe.config
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\roslyn\csc.rsp
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\roslyn\csi.exe
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\roslyn\csi.rsp
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\roslyn\System.AppContext.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\roslyn\vbc.exe
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\roslyn\vbc.exe.config
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\roslyn\vbc.rsp
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\Antlr3.Runtime.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\EntityFramework.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\EntityFramework.SqlServer.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\Microsoft.Owin.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\Microsoft.Owin.Security.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\Newtonsoft.Json.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\Owin.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\System.Web.Helpers.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\System.Web.Mvc.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\System.Web.Optimization.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\System.Web.Razor.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\System.Web.WebPages.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\WebGrease.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\System.Web.Helpers.xml
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\System.Web.Mvc.xml
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\System.Web.Optimization.xml
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\System.Web.Razor.xml
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\System.Web.WebPages.xml
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\Newtonsoft.Json.xml
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\Antlr3.Runtime.pdb
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\EntityFramework.xml
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\EntityFramework.SqlServer.xml
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\Microsoft.Owin.xml
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\Microsoft.Owin.Security.xml
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\pop\source\repos\TasksProject\TasksProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\pop\source\repos\TasksProject\TasksProject\obj\Debug\TasksProject.csproj.CoreCompileInputs.cache
+C:\Users\pop\source\repos\TasksProject\TasksProject\obj\Debug\TasksProject.csproj.CopyComplete
+C:\Users\pop\source\repos\TasksProject\TasksProject\obj\Debug\TasksProject.dll
+C:\Users\pop\source\repos\TasksProject\TasksProject\obj\Debug\TasksProject.pdb
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\TasksProject.dll.config
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\TasksProject.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\TasksProject.pdb
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\roslyn\csc.exe
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\roslyn\csc.exe.config
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\roslyn\csc.rsp
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\roslyn\csi.exe
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\roslyn\csi.rsp
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\roslyn\System.AppContext.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\roslyn\vbc.exe
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\roslyn\vbc.exe.config
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\roslyn\vbc.rsp
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\Antlr3.Runtime.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\EntityFramework.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\EntityFramework.SqlServer.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\Microsoft.Owin.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\Microsoft.Owin.Security.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\Newtonsoft.Json.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\Owin.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\System.Web.Helpers.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\System.Web.Mvc.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\System.Web.Optimization.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\System.Web.Razor.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\System.Web.WebPages.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\WebGrease.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\System.Web.Helpers.xml
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\System.Web.Mvc.xml
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\System.Web.Optimization.xml
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\System.Web.Razor.xml
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\System.Web.WebPages.xml
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\Newtonsoft.Json.xml
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\Antlr3.Runtime.pdb
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\EntityFramework.xml
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\EntityFramework.SqlServer.xml
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\Microsoft.Owin.xml
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\Microsoft.Owin.Security.xml
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\obj\Debug\TasksProject.csproj.CoreCompileInputs.cache
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\obj\Debug\TasksProject.csproj.CopyComplete
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\obj\Debug\TasksProject.dll
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\obj\Debug\TasksProject.pdb
+C:\Users\Nabil Helmy\Downloads\Telegram Desktop\TasksProject\TasksProject\obj\Debug\TasksProject.csprojAssemblyReference.cache

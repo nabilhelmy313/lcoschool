@@ -1,0 +1,109 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<style>
+    .addstudent{
+        display:block;
+    }
+    .exam{
+        display:none;
+    }
+    .homework{
+        display:none;
+    }
+    .comp{
+        display:none;
+    }
+    .asst {
+        display: none;
+    }
+</style>
+<!--Header control-->
+<div class="d-flex justify-content-md-center row mb-2" id="btns">
+
+    <div class="btn-class bg-white mt-2 mx-md-1 col-md-2 col-11 mx-3">
+        <a class="btn btn-lg  " href="#" id="showstudent"><i class="fas fa-user-graduate mr-1 fa-sm"></i>اضافة طالب</a>
+    </div>
+    <div class="btn-class bg-white mt-2 mx-md-1 col-md-2 col-11 mx-3">
+        <a class="btn btn-lg  " href="#" id="showhomework"><i class="far fa-sticky-note mr-1 fa-sm"></i>اضافة واجب</a>
+    </div>
+    <div class="btn-class bg-white mt-2 ml-md-1 col-md-2 col-11 mx-3">
+        <a class="btn btn-lg " href="#" id="showexam"><i class="fas fa-question mr-1 fa-sm"></i>اضافة امتحان</a>
+    </div>
+    <div class="btn-class bg-white mt-2 ml-md-1 col-md-2 col-11 mx-3">
+        <a class="btn btn-lg  " href="#" id="showcomp"><i class="fas fa-award mr-1 fa-sm"></i>اضافة مسابقة</a>
+    </div>
+    <div class="btn-class bg-white mt-2 ml-md-1 col-md-2 col-11 mx-3">
+        <a class="btn btn-lg  " href="#" id="showasst"><i class="fas fa-hands-helping mr-1 fa-sm"></i>اضافة مساعد</a>
+    </div>
+
+</div>
+<!--end Header control-->
+<!---->
+<div class="addstudent">
+    @Html.Partial("_AddStudentPartial")
+</div>
+<div class="homework">
+    @Html.Partial("_HomeworkPartial")
+</div>
+<div class="exam">
+    @Html.Partial("_ExamPartial")
+</div>
+<!--Competion page-->
+<div class="comp">
+    @Html.Partial("_CompPartial")
+</div>
+<!--End Competion page-->
+
+<!--Assistent page-->
+<div class="asst">
+    @Html.Partial("_AddAssestentPartial")
+</div>
+<!--end Assistent page-->
+
+@section Scripts{
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+
+            $("#showstudent").click(function () {
+                $(".asst").hide("slide");
+                $(".comp").hide("slide");
+                $(".exam").hide("slide");
+                $(".homework").hide("slide");
+                $(".addstudent").toggle("slide");
+            });
+            $("#showhomework").click(function () {
+                $(".asst").hide("slide");
+                $(".comp").hide("slide");
+                $(".exam").hide("slide");
+                $(".homework").toggle("slide");
+                $(".addstudent").hide("slide");
+            });
+            $("#showcomp").click(function () {
+                $(".asst").hide("slide");
+                $(".comp").toggle("slide");
+                $(".exam").hide("slide");
+                $(".homework").hide("slide");
+                $(".addstudent").hide("slide");
+            });
+            $("#showexam").click(function () {
+                $(".asst").hide("slide");
+                $(".comp").hide("slide");
+                $(".exam").toggle("slide");
+                $(".homework").hide("slide");
+                $(".addstudent").hide("slide");
+            });
+            $("#showasst").click(function () {
+                $(".asst").toggle("slide");
+                $(".comp").hide("slide");
+                $(".exam").hide("slide");
+                $(".homework").hide("slide");
+                $(".addstudent").hide("slide");
+            });
+
+        });
+    </script>
+}
