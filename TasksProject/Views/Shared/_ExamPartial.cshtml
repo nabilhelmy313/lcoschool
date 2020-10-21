@@ -1,1 +1,209 @@
-﻿<h1>_ExamPartial</h1>
+﻿<style>
+
+    html, body {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background: #F5F5F5;
+    }
+
+        body:after {
+            content: "";
+            background: white;
+            position: fixed;
+            top: 0;
+            bottom: 65%;
+            right: 0;
+            left: 0;
+            content: " ";
+            z-index: -1;
+        }
+
+    .card {
+        box-shadow: 0 1px 1px rgba(0,0,0,0.11), 0 2px 2px rgba(0,0,0,0.11), 0 4px 4px rgba(0,0,0,0.11), 0 8px 8px rgba(0,0,0,0.11), 0 16px 16px rgba(0,0,0,0.11), 0 32px 32px rgba(0,0,0,0.11);
+    }
+
+    .card-header {
+        background-color: #F5F5F5;
+        padding-top: 110px;
+    }
+
+    .card-body {
+        border-radius: 20px;
+        background-color: white;
+    }
+
+    /*Checkboxes styles*/
+    input[type="checkbox"] {
+        display: none;
+    }
+
+        input[type="checkbox"] + label {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 20px;
+            font: 14px/20px 'Open Sans', Arial, sans-serif;
+            cursor: pointer;
+            font-weight:lighter;
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }
+
+            input[type="checkbox"] + label:last-child {
+                margin-bottom: 0;
+            }
+
+            input[type="checkbox"] + label:before {
+                content: '';
+                display: block;
+                width: 20px;
+                height: 20px;
+                border: 1px solid #6cc0e5;
+                position: absolute;
+                left: 0;
+                top: 0;
+                opacity: .6;
+                -webkit-transition: all .12s, border-color .08s;
+                transition: all .12s, border-color .08s;
+            }
+
+        input[type="checkbox"]:checked + label:before {
+            width: 10px;
+            top: -5px;
+            left: 5px;
+            border-radius: 0;
+            opacity: 1;
+            border-top-color: transparent;
+            border-left-color: transparent;
+            -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+</style>
+
+
+<div class="container">
+
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <div class="card">
+                <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs nav-justified" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#add">
+                                <i class="fa fa-file fa-lg mr-1"></i>
+                                إضافة امتحان جديد
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#setting">
+                                <i class="fas fa-sliders-h fa-lg mr-1 "></i>
+                                إعدادات الامتحان
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#question">
+                                <i class="fas fa-question-circle fa-lg mr-1"></i>
+                                إضافة اسألة
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-body">
+                    <div class="tab-content">
+                        <!-- AddExam -->
+                        <div id="add" class="container tab-pane active">
+                            <br>
+                            <form>
+                                <div class="form-group row">
+                                    <div class="col-sm-6 offset-sm-2">
+                                        <input type="text" class="form-control" id="title" placeholder="عنوان الامتحان">
+                                    </div>
+                                    <label for="title" class="col-sm-2  col-form-label">عنوان الامتحان </label>
+
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col-sm-6 offset-sm-2">
+                                        <select class="form-control" id="kind">
+                                            <option>امتحان نصف السنة </option>
+                                            <option>امتحان اخر السنة </option>
+                                        </select>
+                                    </div>
+                                    <label for="kind" class="col-sm-2 col-form-label">نوع الامتحان </label>
+
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col-sm-3 offset-sm-2">
+                                        <a class="btn btn-primary btn-block btn-lg tab-pane" data-toggle="tab" href="#setting" style="color: white;"><i class="fa fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- End add Exam -->
+                        <!--Setting-->
+                        <div id="setting" class="container tab-pane fade">
+                            <br>
+                            <form>
+                                <div class="form-group row">
+                                    <div class="col-sm-6 offset-sm-2">
+                                        <input type="date" class="form-control" id="date">
+                                    </div>
+                                    <label for="date" class="col-sm-2 col-form-label">تاريخ البدأ </label>
+
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col-sm-6 col-sm-6 offset-sm-2">
+                                        <input type="date" class="form-control" id="date">
+                                    </div>
+                                    <label for="date" class="col-sm-2 col-form-label">تاريخ الإنتهاء </label>
+
+                                </div>
+
+                                <div class="form-group row ">
+                                    <div class="col-sm-6 col-sm-6 offset-sm-2 ">
+                                        <select class="form-control">
+                                            <option> كل الصفوف</option>
+                                            <option> الصف الأول الإبتدائي</option>
+                                            <option> الصف الثاني الإبدائي</option>
+                                        </select>
+                                    </div>
+                                    <label for="date" class="col-sm-2 col-form-label">السنة الدراسية</label>
+
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-sm-6 col-sm-6 offset-sm-2">
+                                        <input type="checkbox" id="box-1">
+                                        <label for="box-1" style="font-weight:lighter">Sustainable typewriter cronut</label>
+
+                                        <input type="checkbox" id="box-2" >
+                                        <label for="box-2"  style="font-weight:lighter">Gentrify pickled kale chips </label>
+
+                                        <input type="checkbox" id="box-3">
+                                        <label for="box-3"  style="font-weight:lighter">Gastropub butcher</label>
+                                        <input type="checkbox" id="box-4">
+                                        <label for="box-4"  style="font-weight:lighter">Sustainable typewriter cronut</label>
+
+                                        <input type="checkbox" id="box-5" checked>
+                                        <label for="box-5"  style="font-weight:lighter">Gentrify pickled kale chips </label>
+
+                                        <input type="checkbox" id="box-6">
+                                        <label for="box-6"  style="font-weight:lighter">Gastropub butcher</label>
+                                    </div>
+                                    <label for="date" class="col-sm-2 col-form-label">المجموعات</label>
+                                </div>
+                            </form>
+                        </div>
+                        <!--End Setting-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- endcard -->
+</div>

@@ -16,7 +16,6 @@ namespace TasksProject.Controllers
         public ActionResult AsestDetails(int id)
         {
             return View();
-
         }
     }
 }
